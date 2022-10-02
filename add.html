@@ -2,29 +2,26 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Data Insertion</title>
+<title>Insert title here</title>
 </head>
 <body>
- <div align="center">
+<div align="center">
   <h1>Invoice Entry</h1>
-  <form method="post" action="Add">
+  <form method="post" action="add">
    <table style="width: 80%">
-    <tr>
-     <td>sl_no</td>
-     <td><input type="number" name="sl_no" /></td>
-    </tr>
     <tr>
      <td>business_code</td>
      <td><input type="text" name="business_code" /></td>
     </tr>
-    <tr>
+     <tr>
      <td>cust_number</td>
      <td><input type="number" name="cust_number" /></td>
     </tr>
-    <tr>
+     <tr>
      <td>clear_date</td>
-     <td><input type="text" name="clear_date" /></td>
+     <td><input type="date" name="clear_date" /></td>
     </tr>
+    
      <tr>
      <td>buisness_year</td>
      <td><input type="number" name="buisness_year" /></td>
@@ -33,39 +30,49 @@
      <td>doc_id</td>
      <td><input type="text" name="doc_id" /></td>
     </tr>
+    
     <tr>
      <td>posting_date</td>
      <td><input type="date" name="posting_date" /></td>
     </tr>
-    <tr>
+    
+     <tr>
      <td>document_create_date</td>
      <td><input type="date" name="document_create_date" /></td>
     </tr>
+    
     <tr>
      <td>due_in_date</td>
      <td><input type="date" name="due_in_date" /></td>
     </tr>
-    <tr>
+    
+      <tr>
      <td>invoice_currency</td>
      <td><input type="text" name="invoice_currency" /></td>
-    </tr>  
+    </tr> 
+    
     <tr>
      <td>document_type</td>
      <td><input type="text" name="document_type" /></td>
     </tr>
-     <tr>
+    
+       <tr>
      <td>posting_id</td>
      <td><input type="number" name="posting_id" /></td>
     </tr>
-     <tr>
+    
+        <tr>
      <td>total_open_amount</td>
      <td><input type="number" name="total_open_amount" /></td>
     </tr>
-    <tr>
-    <td>baseline_create_date</td>
+   
+     <tr>
+     <td>baseline_create_date</td>
      <td><input type="date" name="baseline_create_date" /></td>
     </tr>
-    <tr>
+
+   
+     <tr>
      <td>cust_payment_terms</td>
      <td><input type="text" name="cust_payment_terms" /></td>
     </tr>
@@ -73,9 +80,11 @@
      <td>inovice_id</td>
      <td><input type="number" name="invoice_id" /></td>
     </tr>
+    
    </table>
    <input type="submit" value="Submit" />
   </form>
  </div>
 </body>
 </html>
+
